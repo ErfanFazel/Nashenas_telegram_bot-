@@ -6,7 +6,7 @@ import emoji
 
 class Bot:
     """
-    Telegram Bot to randomly connect two strangers to talk
+    Telegram template  bot
     """
     def __init__(self):
         self.bot = telebot.TeleBot(os.environ['NASHENAS_BOT_TOKEN'])
