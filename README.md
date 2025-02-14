@@ -1,4 +1,4 @@
-# Template fot Telegram Bot 
+# Template for Telegram Bot 
 Template to create a telegram bot in python 
 
 ## How to Run
