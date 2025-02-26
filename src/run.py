@@ -21,7 +21,7 @@ class Bot:
         @self.bot.message_handler(is_admin=True) 
         def admin_of_group(message):
             self.bot.send_message(message.chat_id,"You are the admin of this group")
-        @self.bot.message_handler(func=lambda : True)
+        @self.bot.message_handler(func=lambda _: True)
         def echo_all(self,message):
             #print(emoji.demojize(message.text))
             self.send_message(
